@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files (tracked with Git LFS instead)
+*.csv
+*.ipynb
+data/raw_analyst_ratings.csv
